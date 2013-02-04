@@ -1,0 +1,36 @@
+[data-icon]:before {
+  font-family: 'entypo'; /* BYO icon font, mapped smartly */
+  content: attr(data-icon);
+  speak: none; /* Not to be trusted, but hey. */
+  font-size: 1.5em;
+  margin: 0 5% 0 0;
+}
+
+nav {
+	background: #000;
+	float: left;	
+	width: 100%;
+}
+
+nav ul li {
+	float: left;
+	font-family: 'helvetica';	
+}
+
+nav ul li a:link, nav ul li a:visited {
+	text-decoration: none;
+	color: #f00;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	transition: all .5s;
+	padding: 5% 12%;
+	display: block;
+	float: left;	
+	font-size: 2em;
+}
+
+nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
+	color: #0F0;
+} 
+	
