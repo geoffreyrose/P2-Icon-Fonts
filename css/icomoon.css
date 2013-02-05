@@ -25,7 +25,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"]:before {
 */
-.icon-home:before, .icon-print:before, .icon-feed:before, .icon-cart:before {
+.icon-undo:before, .icon-redo:before, .icon-forward:before, .icon-reply:before {
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -33,15 +33,15 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-.icon-home:before {
-	content: "\68";
+.icon-undo:before {
+	content: "\e000";
 }
-.icon-print:before {
-	content: "\70";
+.icon-redo:before {
+	content: "\e001";
 }
-.icon-feed:before {
-	content: "\72";
+.icon-forward:before {
+	content: "\e002";
 }
-.icon-cart:before {
-	content: "\63";
+.icon-reply:before {
+	content: "\e003";
 }
