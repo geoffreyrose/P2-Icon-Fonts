@@ -44,7 +44,22 @@ article section aside span {
 article section h2 {
 	clear: both;
 }
+footer li {
+	margin: 0 3% 0 0;
+	display: block;
+	float: left;
+}
+footer a:link, footer a:visited {
+	text-decoration: none;
+	color: #0a89ff;
+	float: left;
+	display: block;
+}
 
+
+footer a:hover, footer a:active, footer a:focus {
+	color: #ffa300;
+}
 
 /***** Tyopraphy *****/
 
