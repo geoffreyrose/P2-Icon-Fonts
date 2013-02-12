@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'autofont';
+	src:url('../fonts/autofont/autofont.eot');
+	src:url('../fonts/autofont/autofont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/autofont/autofont.woff') format('woff'),
+		url('../fonts/autofont/autofont.ttf') format('truetype'),
+		url('../fonts/autofont/autofont.svg#autofont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'autofont';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"]:before {
+*/
+[class*="icon-"]:before {
+	font-family: 'autofont';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-van:before {
+	content: "\67";
+}
+.icon-fivestar:before {
+	content: "\35";
+}
+.icon-sixstar:before {
+	content: "\36";
+}
+.icon-sevenstar:before {
+	content: "\37";
+}
+.icon-sedan:before {
+	content: "\61";
+}
+.icon-sportscoupe:before {
+	content: "\62";
+}
+.icon-exhausttips:before {
+	content: "\44";
+}
+.icon-tach:before {
+	content: "\43";
+}
+.icon-hothatch:before {
+	content: "\48";
+}
+.icon-shift:before {
+	content: "\41";
+}
+.icon-steeringwheel:before {
+	content: "\42";
+}
+.icon-truck:before {
+	content: "\64";
+}
+.icon-convertible:before {
+	content: "\65";
+}
+.icon-sportstruck:before {
+	content: "\66";
+}
