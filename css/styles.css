@@ -1,28 +1,180 @@
-nav {
+body {
+	font-family: 'SourceSansProRegular', helvetica , arial, sans-serif;
 	background: #000;
-	float: left;	
+}
+
+header {
 	width: 100%;
-}
-
-nav ul li {
+	background: #0a89ff;
 	float: left;
-	font-family: 'helvetica';	
 }
 
-nav ul li a:link, nav ul li a:visited {
-	text-decoration: none;
-	color: #f00;
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	-ms-transition: all .5s;
-	transition: all .5s;
-	padding: 5% 12%;
-	display: block;
-	float: left;	
-	font-size: 2em;
-}
-
-nav ul li a:hover, nav ul li a:active, nav ul li a:focus {
-	color: #0F0;
-} 
+header div {
+	background: #0a89ff; 
+	color: #000;
+	max-width: 1000px;
+	width: 93.5%;
+	margin: 0 auto;
+	padding: 2% 3.25%;
 	
+}
+
+.container { 
+	color: #ffa300;
+	max-width: 1000px;
+	width: 93.5%;
+	margin: 0 auto;
+	padding: 2% 3.25%;
+}
+
+article { 
+	max-width: 1000px;
+	width: 93.5%;
+	margin: 0 auto;
+	padding: 2% 3.25%;
+	float: left;
+}	
+
+article section aside span {
+	font-size: 2.5em;
+	float: left;
+	padding: 3.25%;
+}
+
+article section h2 {
+	clear: both;
+}
+
+
+/***** Tyopraphy *****/
+
+h1, h2, h3, h4, h5, h6 { 
+
+}
+
+h1 {
+	font-size: 4.5em;
+	font-family: 'SourceSansProBlack';
+	text-shadow: 2px 2px 1px #fff;
+}
+	
+h2 {
+	font-size: 3em;
+	color: #fff;
+	font-family: 'SourceSansProLight';
+}
+
+h3 {
+	
+}
+
+h4 {
+	
+}
+
+h5 {
+	
+}
+
+h6 {
+	
+}
+
+
+a#customize {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.5em;
+	float: right;
+}
+
+.custom {
+	width: 100%;
+	background: #999;
+	float: left;
+}
+
+.custom section {
+	background: #999; 
+	color: #000;
+	max-width: 1000px;
+	width: 93.5%;
+	margin: 0 auto;
+	padding: 2% 3.25%;
+}
+
+.customcolor ul {	
+	margin: 0 2% 0 0;
+	width: 48%;
+	float: left;
+}
+
+.customcolor li a {
+	height: 25px;
+	width: 25px;
+	float: left;
+	margin: .3em;
+	text-decoration: none;
+	color: #fff;
+}
+
+.customcolor li:nth-of-type(1) a {
+	width: inherit;
+	height: inherit;
+	color: #000;
+	
+}
+.customcolor li:nth-of-type(2) a {
+	background: #0f0;
+}
+.customcolor li:nth-of-type(3) a {
+	background: #00f;
+}
+.customcolor li:nth-of-type(4) a {
+	background: #f00;
+}
+.customcolor li:nth-of-type(5) a {
+	background: #ffa300;
+}
+.customcolor li:nth-of-type(6) a {
+	background: #f60589;
+}
+.customcolor li:nth-of-type(7) a {
+	background: #eaff00;
+}
+.customcolor li:nth-of-type(8) a {
+	background: #000;
+}
+.customcolor li:nth-of-type(9) a {
+	background: #fff;
+}
+#fontsize li a {
+	background: none !important;
+	width: inherit;
+	height: inherit;
+}
+
+.customizedbar {
+	margin-top: -40em;
+}
+
+.arrow {
+	font-family: autofont;
+	display: inline-block;
+}
+
+.arrowup {
+		-webkit-transform: rotate(180deg);
+		-moz-transform: rotate(180deg);
+		-ms-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+
+@media screen and (max-width: 540px){ 
+	.customcolor ul {
+		width: 100%;
+		margin: 2.5% 0 0 0;
+	}
+
+}
+

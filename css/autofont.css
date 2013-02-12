@@ -33,45 +33,70 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-.icon-van:before {
+
+.icon-vanR:before {
 	content: "\67";
 }
-.icon-fivestar:before {
-	content: "\35";
+.icon-truckR:before {
+	content: "\66";
 }
-.icon-sixstar:before {
-	content: "\36";
+.icon-hothatchR:before {
+	content: "\65";
+}
+.icon-sportstruckR:before {
+	content: "\64";
+}
+.icon-sportscoupeR:before {
+	content: "\63";
+}
+.icon-tach:before {
+	content: "\5e";
+}
+.icon-truckL:before {
+	content: "\46";
+}
+.icon-hothatchL:before {
+	content: "\45";
+}
+.icon-sporttruckL:before {
+	content: "\44";
+}
+.icon-sportscoupeL:before {
+	content: "\43";
+}
+.icon-converibleL:before {
+	content: "\42";
+}
+.icon-sedanL:before {
+	content: "\41";
 }
 .icon-sevenstar:before {
 	content: "\37";
 }
-.icon-sedan:before {
-	content: "\61";
-}
-.icon-sportscoupe:before {
-	content: "\62";
-}
-.icon-exhausttips:before {
-	content: "\44";
-}
-.icon-tach:before {
-	content: "\43";
-}
-.icon-hothatch:before {
-	content: "\48";
-}
-.icon-shift:before {
-	content: "\41";
+.icon-sixstar:before {
+	content: "\36";
 }
 .icon-steeringwheel:before {
-	content: "\42";
+	content: "\26";
 }
-.icon-truck:before {
-	content: "\64";
+.icon-fivestar:before {
+	content: "\35";
 }
-.icon-convertible:before {
-	content: "\65";
+.icon-shift:before {
+	content: "\25";
 }
-.icon-sportstruck:before {
-	content: "\66";
+.icon-exhaust:before {
+	content: "\24";
+}
+.icon-convertibleR:before {
+	content: "\62";
+}
+.icon-sedanR:before {
+	content: "\61";
+}
+.icon-vanL:before {
+	content: "\47";
+}
+.icon-arrow:before {
+	content: "\2a";
 }
