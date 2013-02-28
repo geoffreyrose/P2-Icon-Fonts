@@ -1,6 +1,6 @@
 body {
 	font-family: 'SourceSansProRegular', helvetica , arial, sans-serif;
-	background: #000;
+	background: #fff;
 }
 
 header {
@@ -20,7 +20,7 @@ header div {
 }
 
 .container { 
-	color: #ffa300;
+	color: #000;
 	max-width: 1000px;
 	width: 93.5%;
 	margin: 0 auto;
@@ -33,12 +33,24 @@ article {
 	margin: 0 auto;
 	padding: 2% 3.25%;
 	float: left;
-}	
+}
+	
+section {
+	float: left;
+	margin: 0 0 1em 0;
+	width: 100%;
+	
+}
+
+section span {
+	color: #ffa300;
+}
 
 article section aside span {
 	font-size: 2.5em;
 	float: left;
 	padding: 3.25%;
+	margin: .5em 0;
 }
 
 article section h2 {
@@ -48,12 +60,11 @@ footer li {
 	margin: 0 3% 0 0;
 	display: block;
 	float: left;
+	color: #000;
 }
 footer a:link, footer a:visited {
 	text-decoration: none;
 	color: #0a89ff;
-	float: left;
-	display: block;
 }
 
 
@@ -75,15 +86,20 @@ h1 {
 	
 h2 {
 	font-size: 3em;
-	color: #fff;
+	color: #000;
 	font-family: 'SourceSansProLight';
 }
 
 h3 {
-	
+	font-size: 2em;
+	color: #000;
+	font-family: 'SourceSansProLight';
 }
 
 h4 {
+	font-size: 1.5em;
+	color: #000;
+	font-family: 'SourceSansProLight';
 	
 }
 
@@ -95,7 +111,11 @@ h6 {
 	
 }
 
-
+p {
+	font-size: 1em;
+	line-height: 1.6em;
+	margin:  0 0 .5em 0;
+}
 a#customize {
 	text-decoration: none;
 	color: #000;
@@ -103,25 +123,37 @@ a#customize {
 	float: right;
 }
 
-.custom {
+.customcontainer {
 	width: 100%;
 	background: #999;
 	float: left;
+	border-bottom: 3px solid #000;
+	border-top: 3px solid #000; 
 }
 
+.custom {
+	width: 93.5%;
+	padding: 3.25%;
+	background: #999;
+	margin: 0 auto 0;
+	max-width: 1000px;
+}
+.custom p {
+	clear: both;
+	width: 100%;
+}
 .custom section {
 	background: #999; 
 	color: #000;
-	max-width: 1000px;
-	width: 93.5%;
-	margin: 0 auto;
-	padding: 2% 3.25%;
+}
+.custom section.customcolor{
+	width: 32.5%;	
 }
 
 .customcolor ul {	
 	margin: 0 2% 0 0;
-	width: 48%;
 	float: left;
+	width: 100%;
 }
 
 .customcolor li a {
@@ -134,33 +166,27 @@ a#customize {
 }
 
 .customcolor li:nth-of-type(1) a {
-	width: inherit;
-	height: inherit;
-	color: #000;
-	
-}
-.customcolor li:nth-of-type(2) a {
 	background: #0f0;
 }
-.customcolor li:nth-of-type(3) a {
+.customcolor li:nth-of-type(2) a {
 	background: #00f;
 }
-.customcolor li:nth-of-type(4) a {
+.customcolor li:nth-of-type(3) a {
 	background: #f00;
 }
-.customcolor li:nth-of-type(5) a {
+.customcolor li:nth-of-type(4) a {
 	background: #ffa300;
 }
-.customcolor li:nth-of-type(6) a {
+.customcolor li:nth-of-type(5) a {
 	background: #f60589;
 }
-.customcolor li:nth-of-type(7) a {
+.customcolor li:nth-of-type(6) a {
 	background: #eaff00;
 }
-.customcolor li:nth-of-type(8) a {
+.customcolor li:nth-of-type(7) a {
 	background: #000;
 }
-.customcolor li:nth-of-type(9) a {
+.customcolor li:nth-of-type(8) a {
 	background: #fff;
 }
 #fontsize li a {
@@ -184,12 +210,41 @@ a#customize {
 		-ms-transform: rotate(180deg);
 		transform: rotate(180deg);
 	}
+	
+.icons aside {
+	width: 25%;
+	float: left;	
+}
+
+.icons aside span{
+		text-align: center;	
+		width: 100%;
+	}
+@media screen and (max-width: 900px){ 
+
+	.custom section.customcolor{
+		width: 50%;	
+	}
+	
+	}
+
+
+
+
 
 @media screen and (max-width: 540px){ 
 	.customcolor ul {
 		width: 100%;
 		margin: 2.5% 0 0 0;
 	}
+	
+	.icons aside {
+		width: 50%;	
+	}
+	.custom section.customcolor{
+	width: 100%;	
+	}
+
 
 }
 
